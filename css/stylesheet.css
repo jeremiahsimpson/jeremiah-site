@@ -46,3 +46,89 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+/* BASE STYLES */
+body {
+	max-width: 1440px;
+	margin: 2% auto;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	line-height: 1.4;
+	color: #444;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+
+/* HEADER STYLES */
+header {
+	text-align: left;
+	padding: 2% 0;
+}
+
+
+/* MAIN STYLES */
+
+main {
+	overflow: auto;
+}
+
+main img {
+	width: 100%;
+}
+
+.thumbnail {
+	float: left;
+	margin: 0 1% 2% 1%;
+	width: 31.3333%; /*300px*/
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+
+/* FOOTER STYLES */
+
+
+
+
+
+/* TABLET STYLES */
+
+
+
+
+
+
+/* MOBILE STYLES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
