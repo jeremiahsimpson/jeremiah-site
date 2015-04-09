@@ -1,0 +1,51 @@
+body {
+	background: #fff580;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	color:#fb05a8;
+	width: 600px;
+	margin: 0 auto;
+	line-height: 1.4;
+	text-align: center;
+}
+
+
+h1 {
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	color:#000000;
+}
+
+h3 {
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	text-transform: uppercase;
+	color:#000000;
+	
+}
+
+
+a:hover, a:active {
+	color: #fb05a8;
+	text-decoration: underline;
+	}
+	
+
+a{
+	color: #fc7200;
+	text-decoration: underline
+
+}
+
+
+
+ul {
+	list-style-type: square;
+	padding-left: 0px;
+}
+
+img{
+	border: 10px solid #faad30;
+/* 	padding: 2px;	 */
+}
+
+table{
+	margin:0 auto;	
+}

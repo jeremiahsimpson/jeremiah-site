@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BASE STYLES */
+
+body {
+    width: 800px;
+    margin: 20px auto;
+    font: 14px/1.5 Helvetica, Arial, sans-serif;
+    color: #444;
+    background: url(../img/squairy_light.png);
+}
+
+h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+	color: #ca2d92;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover, a:active {
+	color: #5dc2a5;	
+}
+
+
+
+
+
+/* LAYOUT STYLES */
+
+header {
+    margin-bottom: 40px;
+}
+
+header  img {
+	-webkit-transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+		transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+header img:hover {
+	opacity: .5;
+}
+
+
+.primary-nav {
+    margin-bottom: 40px;
+    outline: 1px dotted lime;
+    overflow: hidden;
+}
+
+.primary-nav li {
+	float: left;
+	margin-right: 10px;
+	}
+
+.primary-nav li:last-child {
+	margin-right: 0;
+}
+
+.primary-nav a {
+	display: block;
+	width: 152px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #fff;
+	background-color: #cdcdcd;
+	padding: 6px 0px;
+	border-radius: 3px;
+	text-shadow: 0px 1px 0px #999;
+	background-color: #cdcdcd;
+	background-image: -webkit-linear-gradient(top, #cdcdcd, #dadada); 
+	background-image:  linear-gradient(to bottom, #cdcdcd, #dadada); 
+}
+
+.primary-nav a:hover, .primary-nav a:active {
+	background-color: #dadada;
+}
+
+
+.secondary-nav {
+    float: left;
+    width: 200px;
+    outline: 1px dotted lime;
+}
+
+.secondary-nav li {
+	border-bottom: 1px solid #bfbebe;
+}
+
+.secondary-nav a {
+	display: block;
+	color: #888888;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 6px 0;
+}
+
+.secondary-nav a:hover, .secondary-nav a:active {
+	background-color: #dadada;
+	color: #ca2d92;
+}
+
+
+main {
+    float: right;
+    width: 580px;
+    margin-bottom: 20px;
+    outline: 1px dotted lime;
+}
+
+footer {
+    clear: both;
+    border-bottom: 1px dotted #444;
+    border-top: 1px dotted #444;
+}
+
+/* GALLERY */
+
+.transform li {
+    float: left;
+    margin-right: 20px;
+}
+
+.transform img {
+	box-shadow: 2px 2px 3px 0px #cdcdcd;
+	
+  -webkit-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out; 
+
+}
+
+.transform img:hover {
+	-webkit-transform: rotate(-2deg) scale(1.05); 
+      -ms-transform: rotate(-2deg) scale(1.05);
+          transform: rotate(-2deg) scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

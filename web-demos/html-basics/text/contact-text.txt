@@ -1,0 +1,50 @@
+[logo]
+
+Home | About | Services | Testimonials | Contact Us
+
+Contact Us [heading 1]
+
+[contact_image]
+
+If you would like more information about Somelogo please contact one of our offices or use the email links below to contact your area of interest.
+
+Australia <heading 3>
+
+Somelogo Limited
+Somelogo Centre
+180 Lonsdale Street
+Melbourne Victoria 3000
+Phone: (61) 1300 55 47 57
+Fax: (61 3) 9609 3015
+Email: contact_aus@somelogo.com.au
+
+United Kingdom <heading 3>
+
+Somelogo Plc
+Neathouse Place
+Victoria
+London SW1V 1LH
+Phone: (44 20) 7802 4000
+Fax: (44 20) 7802 4111
+Registered in England, No. 3196209
+Registered Office: as above
+Email: contact_uk@somelogo.co.uk
+
+South Africa <heading 3>
+
+6 Hollard Street
+Johannesburg 2001
+Republic of South Africa
+Phone: (27 11) 376 9111
+Fax: (27 11) 838 4716
+Email: contact_sa@somelogo.co.za
+
+United States <heading 3>
+
+1360 Post Oak Boulevard, Suite 150
+Houston TX 77056-3020
+Phone: (1 713 ) 961 8500
+Fax: (1 713 ) 961 8400
+Email: contact_us@somelogo.com
+
+Copyright Somelogo 2013

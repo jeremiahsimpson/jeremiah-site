@@ -46,3 +46,83 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* BASE STYLES */
+
+*, *:before, *:after { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    width: 786px;
+    margin: 20px auto;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #666;
+}
+
+.news-story {
+	float: left;
+	width: 242px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #ededed;
+	background-color: #f6f6f6;
+	
+}
+
+
+p {
+	clear:left;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

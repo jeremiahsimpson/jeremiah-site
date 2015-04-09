@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, main {
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -46,3 +46,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* BASE STYLES */
+
+body {
+    width: 650px;
+    margin: 10px auto;
+}
+
+
+ul,ol {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: :disc;
+}
+
+ol{
+	list-style-type: decimal;
+}
+
+li {
+	margin-top; 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

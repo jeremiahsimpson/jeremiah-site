@@ -1,0 +1,163 @@
+/* CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BASE STYLES */
+
+body {
+	max-width: 1440px;
+	margin: 2% auto;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	line-height: 1.4;
+	color: #444;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+/* HEADER STYLES */
+
+header {
+	text-align: center;
+	padding: 2% 0;
+}
+
+/* NAV STYLES */
+nav {
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+	text-align: center;
+	padding: .5% 0;
+	margin-bottom: 2%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 3%;
+}
+
+nav a:link, nav a:visited {
+	font-weight: bold;
+	color: #F96B07;
+	text-decoration: none;
+	text-transform: uppercase;;
+}
+
+nav a:hover, nav a:active {
+	color: #c30;
+}
+
+/* MAIN STYLES */
+main {
+	overflow: auto;
+}
+
+main img {
+	width: 100%;
+}
+
+.thumbnail {
+	float: left;
+	margin: 0 1% 2% 1%;
+	width: 31.3333%; /*300px*/
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+
+/* FOOTER STYLES */
+
+footer {
+	border-top: 1px dotted #444;
+	border-bottom: 1px dotted #444;
+	text-align: center;
+	padding: 5% 0;
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+/* TABLET STYLES */
+
+@media only screen and (max-width: 960px) {
+
+	body {
+		width: 90%;
+	}
+
+	.thumbnail {
+			width: 48%;
+	}
+	
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 700px) {
+
+	body {
+		width: 95%;
+	}
+	.thumbnail {
+		float: none;
+		width: 100%;
+		margin: 0 0 2% 0;
+	}
+	nav {
+		margin-bottom: 4%;
+	}
+	
+}
+
+
