@@ -53,15 +53,88 @@ table {
 /* BASE STYLES */
 body {
 	max-width: 1440px;
-	margin: 2% auto;
+	margin: 0% auto;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	line-height: 1.4;
 	color: #444;
 }
 
+
+.hero-image{
+	position: relative;
+/* 	margin-top: 30px; */
+}
+
+
+.down-arrow{
+	position: relative;
+	margin: 0 auto;
+	margin-top:-32px;
+	width: 50px;
+}
+
+
+
 h1 {
-	font-weight: bold;
-	font-size: 36px;
+    position:absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    margin: -45px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 50px;
+    color: #fff;
+    line-height: .8;
+    text-align: center;
+}
+
+h1 span {
+    font-size: 18px;
+    font-family: helvetica, arial, sans-serif;
+    font-style: italic;
+}
+
+.hero-color{
+	display: block;
+	height: 400px;
+	background-color: #0EBBB5;
+}
+
+.project-area{
+	display: block;
+	height: 900px;
+	background-color: #0EBBB5;
+	color: #fff;
+
+}
+
+.project-image img {
+	margin-top: 60px;
+	max-width: 909;
+	
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+	font-size: 24px;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+h4 {
+	font-size: 14px;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.description {
+	padding: 40px;
+	margin-top: -20px;
 }
 
 
@@ -69,51 +142,253 @@ h1 {
 header {
 	text-align: left;
 	padding: 2% 0;
+	position: absolute;
 }
+
+.logo {
+	float: left;
+	padding: 5px;
+	margin-left: 10px;
+	top:0;
+}
+
+
+/* NAV STYLES */
+nav {
+	/* 	this keeps the navbar in place */
+	position: fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	right:0;
+	
+/* 	add transparency to navbar with the rgba... between 0-1 */
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
+}
+nav li {
+    float: right;
+}
+nav a {
+    display: block;
+    color: #938f8f;
+    text-decoration: none;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-style: : bold;
+    text-transform: uppercase;
+    margin-top:3px;
+    padding: 10px 15px;
+}
+nav a:hover, nav a:active {
+    background-color: #6e6e6e;
+}
+
 
 
 /* MAIN STYLES */
 
 main {
-	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 main img {
 	width: 100%;
 }
 
-.thumbnail {
+.thumb {
+	position: relative;
 	float: left;
 	margin: 0 1% 2% 1%;
 	width: 31.3333%; /*300px*/
 }
 
-.thumbnail img {
+.thumb-show img{
 	width: 100%;
+}
+
+.thumb:last-child {
+  margin-right: 0;
+}
+
+
+.thumb-hover {
+  opacity: 0;
+  position: absolute;
+  background: rgba(0,0,0,.75);
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  text-decoration: none;
+  padding: 48px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.thumb:hover a {
+  opacity: 1;
+}
+
+.thumb:active .thumb-hover {
+  background: rgba(0,0,0,.85);
+}
+
+
+.project-highlight {
+	position: relative;
+	float: left;
+	margin: 0 1% 2% 1%;
+	margin-top: -30px;
+	width: 31.3333%; /*300px*/
+}
+
+
+
+.work-block {
+	display: block;
+	background-color: #000;
+	background-image: -webkit-linear-gradient(top, #A2988A, #D7CBBC); 
+	background-image:  linear-gradient(to bottom, #A2988A, #D7CBBC);
+	padding: 50px;
+	overflow: auto;
+}
+
+.icons {
+	float:left;
+	margin: 0%;
+	width: 33.33%;
+	text-align: center;
+}
+
+.icons img{
+	max-width: 170px;
+}
+
+.external-block img {
+	width: 49.5%;
+	
+}
+
+
+/*
+.external-block img:last-child {
+	float: right;
+	
+}
+*/
+
+.google {
+	float: left;
+	width: 49.5%;
+	height: 296px;
+}
+
+
+.photo{
+	display: block;
+	background-color: #50E3C2;
+	float: right;
+	text-align: center;
+	width: 49.5%;
+	height: 296px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 50px;
+    color: #fff;
+	
+	
+	
+
+}
+
+
+
+
+.connect-block {
+	display: block;
+	clear: both;
+	padding-top: 10px;
+	background-color: #CA3E00;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+.connect-block-form {
+	display: none;
+}
+
+.connect-block.open .connect-block-form {
+	display: block;
+}
+
+.connect-block-form .hide {
+	display: none !important;
+}
+
+input[type="text"], textarea {
+	
 }
 
 
 /* FOOTER STYLES */
 
+.footer-block {
+	display: block;
+	background-color: #000;
+	text-align: left;
+	font-size: 11px;
+	height: 50px;
+	margin-top:10px;
+	color: #fff;
+}
 
-
+.social{
+	float: right;
+}
 
 
 /* TABLET STYLES */
 
+@media only screen and (max-width: 960px) {
 
+	body {
+		width: 100%;
+	}
 
-
-
+	.thumb {
+			width: 48%;
+	}
+	
+}
 
 /* MOBILE STYLES */
 
+@media only screen and (max-width: 700px) {
 
-
-
-
-
-
+	body {
+		width: 100%;
+	}
+	.thumb {
+		float: none;
+		width: 100%;
+		margin: 0 0 2% 0;
+	}
+	
+	.icons {
+		float: none;
+		width: 100%;
+		margin: 0 0 2% 0;
+	}
+	
+	nav {
+		margin-bottom: 4%;
+	}
+	
+}
 
 
 

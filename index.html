@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<header>
+	<head>
 		<meta charset="UTF-8">
 		<title>Jeremiah's Site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +14,12 @@
 	<body>
 		<header>
 			
-			<img src="img/logo_bridger.png" alt="Bridger Logo">
-			
 			<nav>
+				<img src="img/logo_bridger.png" alt="Bridger Logo" class="logo">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Home</a></li>
 				</ul>
 			</nav>
 			
@@ -29,57 +28,184 @@
 
 		
 		<main>
-			<img src="img/heroImage.jpg" alt="image 1">
+			<div class="hero-image">
+				<img src="img/heroImage.jpg" alt="image 1" >
+				<h1>Design Work Lorem<br><span>lorem ipsum dolor</span></h1>
+				
+				<div class="down-arrow">
+					<img src="img/circleDown.png" alt="down-arrow">
+				</div>
+				
+				<div class="description">
+					<h2>A creative agency specializing in digital experience and brand identity.</h2>
+				</div>
+			</div>
+
+				
+				
+			<div class="thumb">
+				<div class="thumb-show">
+					<img src="img/valley.jpg" alt="image 1">
+				</div>
+				<a class="thumb-hover" href="detail.html">
+					<h3>Penn Station</h3>
+					<h4>34th &amp; 7th Ave</h4>
+  				</a>
+			</div>
+				
+			<div class="thumb">
+				<div class="thumb-show">
+					<img src="img/goodmorningyosemite.jpg" alt="image 2">
+				</div>
+				<a class="thumb-hover" href="detail.html">
+					<h3>Penn Station</h3>
+					<h4>34th &amp; 7th Ave</h4>
+  				</a>
+			</div>
+				
+			<div class="thumb">
+				<div class="thumb-show">
+					<img src="img/thedomainofthewhitetailedeagle.jpg" alt="image 3">
+				</div>
+				<a class="thumb-hover" href="detail.html">
+					<h3>Penn Station</h3>
+					<h4>34th &amp; 7th Ave</h4>
+  				</a>
+			</div>
+				
+			<div class="thumb">
+				<div class="thumb-show">
+					<img src="img/eternalsunshineofthespotlessmind.jpg" alt="image 4">
+				</div>
+				<a class="thumb-hover" href="#">
+					<h3>Test</h3>
+					<h4>34th &amp; 7th Ave</h4>
+  				</a>
+			</div>
+				
+			<div class="thumb">
+				<div class="thumb-show">
+					<img src="img/oregonspaintedhills.jpg" alt="image 5">
+				</div>
+				<a class="thumb-hover" href="#">
+					<h3>Penn Station</h3>
+					<h4>34th &amp; 7th Ave</h4>
+  				</a>
+			</div>
+				
+			<div class="thumb">
+				<div class="thumb-show">
+					<img src="img/archesparkavenue.jpg" alt="image 6">
+				</div>
+				<a class="thumb-hover" href="#">
+					<h3>Penn Station</h3>
+					<h4>34th &amp; 7th Ave</h4>
+  				</a>
+			</div>
 			
-			<h1>Design Lorem Ipsum</h1>
 			
-			<h2>A creative agency specializing in digital experience and brand identity.</h2>
-		
-		<article class="thumbnail">
-			<img src="img/valley.jpg" alt="image 1">
-		</article>
-		<article class="thumbnail">
-			<img src="img/goodmorningyosemite.jpg" alt="image 2">
-		</article>
-		<article class="thumbnail">
-			<img src="img/thedomainofthewhitetailedeagle.jpg" alt="image 3">
-		</article>
-		<article class="thumbnail">
-			<img src="img/eternalsunshineofthespotlessmind.jpg" alt="image 4">
-		</article>
-		<article class="thumbnail">
-			<img src="img/oregonspaintedhills.jpg" alt="image 5">
-		</article>
-		<article class="thumbnail">
-			<img src="img/archesparkavenue.jpg" alt="image 6">
-		</article>
 
 		
-		<div>
-			How We work Image
-		
-			Today Pic Image
-			
-			Map Image
+		<div class="work-block">
+			<div class="icons"><img src="img/map.png"><h4>Research</h4></a></div>
+			<div class="icons"><img src="img/pencil.png"><h4>Iterate</h4></a></div>
+			<div class="icons"><img src="img/screen.png"><h4>Prototype</h4></a></div>
 		</div>
 		
-		<h2>Let's Connect</h2>
-		<h2>Lorem Ipsum</h2>
-		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3> 
-</main>		
-		<footer>
-			<article>
-			Logo
-			49 West 37th Street #806
-			New York, New York 10018
-			917-825-2803
-			</article>
+		<div class="external-block">
+			<iframe class="google" width="600" height="296" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=16&center=40.7511%2C-73.9852&key=AIzaSyB-f_7lDJWKayTaS540HJhm3WGjNCFNy1A">
+			</iframe>
+			
+			<div class="photo">
+				<p>Come <br>Say Hello!</p>
+			</div>
 		
-			<article>
-			Social Icons
-			</article>
+		</div>
+		
+		
+		<div class="connect-block" id="connect-block">
+			<h3 id="connect-block-header">Let's Connect</h3>
+			
+			<div class="connect-block-form" id="connect-block-form">
+			
+				<form id="form3" name="form3" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+				      action="https://studiobridger.wufoo.com/forms/q766psi160wfyq/#public">
+				
+				<ul>
+				
+				<li id="foli1" class="notranslate      ">
+				<label class="desc" id="title1" for="Field1">
+				Name
+				<span id="req_1" class="req">*</span>
+				</label>
+				<div>
+				<input id="Field1" name="Field1" type="text" class="field text large" value="" maxlength="255" tabindex="1" onkeyup=""       required />
+				</div>
+				</li>
+				<li id="foli2" class="notranslate      ">
+				<label class="desc" id="title2" for="Field2">
+				Email
+				<span id="req_2" class="req">*</span>
+				</label>
+				<div>
+				<input id="Field2" name="Field2" type="text" class="field text large" value="" maxlength="255" tabindex="2" onkeyup=""       required />
+				</div>
+				</li>
+				<li id="foli6"
+				class="notranslate      "><label class="desc" id="title6" for="Field6">
+				Message
+				<span id="req_6" class="req">*</span>
+				</label>
+				
+				<div>
+				<textarea id="Field6"
+				name="Field6"
+				class="field textarea medium"
+				spellcheck="true"
+				rows="10" cols="50"
+				
+				tabindex="3"
+				onkeyup=""
+				      required  ></textarea>
+				
+				</div>
+				</li> <li class="buttons ">
+				<div>
+				
+				                    <input id="saveForm" name="saveForm" class="btTxt submit"
+				    type="submit" value="Submit"
+				 /></div>
+				</li>
+				
+				<li class="hide">
+				<label for="comment">Do Not Fill This Out</label>
+				<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+				<input type="hidden" id="idstamp" name="idstamp" value="JxH5Np1YRzvPdX2BEn21o91ton1ekeH4natgBT+jNLo=" />
+				</li>
+				</ul>
+				</form>
+			</div>
+</main>		
+
+
+		<footer class="footer-block">
+			
+			<div>
+				<img src="img/logo_bridger.png" alt="Bridger Logo" class="logo">
+			</div>
+		
+			<div class="social">
+				<p>Social Icons</p>
+			</div>
+			
 		</footer>
 		
 		
+	
+		
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/wufoo.js"></script>
+		<script src="js/custom.js"></script>
 	</body>
 </html>
